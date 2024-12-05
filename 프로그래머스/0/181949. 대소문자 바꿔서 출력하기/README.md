@@ -50,3 +50,16 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+---
+str = input()
+
+result = ""
+for char in str:
+    if char.islower():
+        result += char.upper()
+    else:
+        result += char.lower()
+print(result)
+
+#### 새로운 내용은 덮어쓰기가 안되는군
